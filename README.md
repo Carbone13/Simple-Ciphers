@@ -10,3 +10,7 @@ The Shift Cipher is also called the "Caesar Cipher", because Julius Caesar liked
 The most popular shift cipher is ROT13 ("ROT" = "rotates"). It shifts letters 13 positions. It is popular because 13 is half of the 26 letter alphabet, which gives it a unique property. The same function can be used to both encrypt and decrypt.
 
 PHP has a built in functio for ROT13 called `str_rot13()`.
+
+<?php
+        echo "Hello world!";
+    ?>
