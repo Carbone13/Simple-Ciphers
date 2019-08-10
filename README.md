@@ -11,8 +11,10 @@ The most popular shift cipher is ROT13 ("ROT" = "rotates"). It shifts letters 13
 
 PHP has a built in functio for ROT13 called `str_rot13()`.
 
-
     <?php
-        echo "Hello world!";
+        echo str_rot13('This is a secret message.');
+        // Guvf vf n frperg zrffntr.
+        echo str_rot13('Guvf vf n frperg zrffntr.');
+        // This is a secret message.
     ?>
-    
+
